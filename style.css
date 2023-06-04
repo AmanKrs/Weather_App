@@ -1,0 +1,109 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #efefef;
+}
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(210, 212, 212, 0.774);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.content {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #746565;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo {
+  height: 80px;
+  width: 80px;
+}
+.cityname {
+  margin: 20px auto;
+  width: 40%;
+  height: 25px;
+  border-color: aqua;
+  border-radius: 20px;
+}
+.search {
+  margin-top: 20px;
+  width: 20%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: dodgerblue;
+  color: #fff;
+  cursor: pointer;
+}
+.content1 {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #949292;
+  display: none;
+}
+
+.weather-head {
+  display: flex;
+  margin: 0 15px;
+  justify-content: space-between;
+}
+.weather-head h2 {
+  font-size: 20px;
+}
+.menu-dot {
+  margin-top: 20px;
+  margin-left: 70%;
+  cursor: pointer;
+}
+.weather-info {
+  display: flex;
+  margin: 0 15px;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+li {
+  list-style: none;
+  font-weight: bold;
+}
+.value {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.weather-icon {
+  vertical-align: middle;
+}
+.weather-des {
+  margin-left: 80px;
+}
+.feel {
+  margin-bottom: 8px;
+  margin-top: -12px;
+}
+.city {
+  text-transform: capitalize;
+}
+.back {
+  margin-top: 70px;
+  margin-left: 90%;
+  font-size: 40px;
+  cursor: pointer;
+}
+.des {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

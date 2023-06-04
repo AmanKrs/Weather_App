@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/b23d426937.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="content" id="content">
+        <img src="./image/weather-app.png" class="logo" />
+        <input
+          type="text"
+          placeholder="Enter City Name"
+          class="cityname"
+          id="cityname"
+          required
+        />
+        <button class="search" onclick="weather()" id="btn">Search</button>
+      </div>
+      <div class="content1" id="content1">
+        <div class="weather-head">
+          <h2>Weather</h2>
+          <i class="fa-solid fa-ellipsis-vertical fa-lg menu-dot"></i>
+        </div>
+        <div class="weather-info">
+          <div>
+            <li>Now</li>
+            <span class="value" id="temp"></span
+            ><img src="" id="icon" class="weather-icon" />
+            <br />
+            <p><span id="temp_min"></span>/<span id="temp_max"></span></p>
+            <p class="feel">Feels like <span id="feel"></span></p>
+            <span class="city" id="city"> </span>
+            &nbsp;
+            <span
+              class="fa-solid fa-location-dot"
+              style="color: #041f4e"
+            ></span>
+          </div>
+          <div class="details">
+            <h4 class="weather-des" id="des"></h4>
+
+            <ul>
+              <li>Humidity: <span class="des" id="humid"></span></li>
+              <li>Wind: <span class="des" id="wind"></span><span></span></li>
+              <li>Country: <span class="des" id="country"></span></li>
+            </ul>
+          </div>
+        </div>
+        <i
+          class="fa-solid fa-circle-chevron-left fa-beat back"
+          onclick="back()"
+        ></i>
+      </div>
+    </div>
+  </body>
+</html>
