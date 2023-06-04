@@ -13,7 +13,7 @@ async function weather() {
   var report = await fetch(
     "https://api.openweathermap.org/data/2.5/weather?q=" +
       cityName +
-      "&appid=293388d62b092ca9f36c62239d4e543c&units=metric"
+      "&appid=ca71ec8e12394f810100ad8e0846b831&units=metric"
   );
   console.log(report);
   var cityWeather = await report.json();
