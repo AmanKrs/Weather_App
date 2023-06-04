@@ -107,3 +107,28 @@ li {
   font-weight: 300;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
+@media only screen and (max-width: 580px) {
+  .content {
+    width: 78%;
+    height: 60%;
+  }
+  .content1 {
+    width: 78%;
+    height: 43%;
+  }
+  .back {
+    margin-top: 0;
+    margin-left: 85%;
+    font-size: 25px;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 580px) and (max-width: 858px) {
+  .back {
+    margin-top: 40px;
+    margin-left: 88%;
+    font-size: 35px;
+    cursor: pointer;
+  }
+}
